@@ -1,8 +1,43 @@
-.logo{
-  width: 600px;
-  height: auto;
+/* TESTING */
+.border{
+  border: 4px solid black;
 }
-.img-responsive{
-  width: 200px;
+
+/* STYLE */
+/* NAV */
+nav{
+  background: linear-gradient(to bottom, rgb(108, 131, 80), rgba(108, 131, 80, .01));
+}
+.navbar{
+  text-align: center;
+  margin: 20px auto;
+}
+#logo{
+  width: 300px;
+  margin: 0 100px;
+}
+.link{
+  font-size: 24px;
+  color: black;
+}
+
+/* MAIN */
+.main{
+  margin-top: 50px;
+}
+.portrait{
+  width: 400px;
+  float: right;
+}
+.about-me-info h4{
+  hyphens: auto;
+}
+/* DOODLES */
+
+.art{
+  text-align: center;
+}
+.doodle{
   display: inline-block;
+  width: 200px;
 }
