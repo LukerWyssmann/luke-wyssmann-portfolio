@@ -5,36 +5,41 @@
     <title>Luke Wyssmann - Portfolio</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/lightbox.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Permanent+Marker" rel="stylesheet">
   </head>
   <body>
+
+    <!-- NAV BAR -->
 
     <nav>
       <div class="container-fluid">
         <ul class="list-unstyled list-inline navbar">
-          <li><a href="#doodles-section" class="link">Doodles</a></li>
+          <li><a href="#doodles-section" class="link perm-font">Doodles</a></li>
           <img src="images/logo2.png" id="logo"  alt="">
-          <li><a href="#web" class="link">Web</a></li>
+          <li><a href="#web-section" class="link perm-font">Web</a></li>
         </ul>
       </div>
     </nav>
+
+    <!-- MAIN CONTAINER -->
 
       <div class="main container-fluid">
         <div class="row">
           <div class="col-xs-12">
             <div class="row">
               <div class="col-sm-6" >
-                <img src="images/169_1_Portrait.png" class="img-responsive portrait">
+                <img src="images/169_1_Portrait.png" class="img-responsive portrait perm-font">
               </div>
               <div class="col-sm-3 about-me">
                 <div class="about-me-info">
-                  <h1>Luke Wyssmann</h1>
-                  <h4>I am a freelance doodler with ten years of experience in the Adobe Creative Suite and two years of coding in various languages.</h4>
-                  <h4>I have experience creating album art for bands, poster-sized illustrations for individuals, extremely large murals, and digital assets for video games or websites. </h4>
+                  <h1 id="name" class="perm-font">Luke Wyssmann</h1>
+                  <h4 class="open-font">I am a freelance doodler with ten years of experience in the Adobe Creative Suite and two years of coding in various languages.</h4>
+                  <h4 class="open-font">I have experience creating album art for bands, poster-sized illustrations for individuals, extremely large murals, and digital assets for both video games and websites. </h4>
                   <h4></h4>
                 </div>
                 <div class="icons">
-                  <img src="images/thumbnails/fb.png" alt="">
-                  <img src="images/thumbnails/ig.png" alt="">
+                  <a href="https://www.instagram.com/lukerdoodles/"><img src="images/ig.png" class="img-responsive social" alt=""></a>
                 </div>
               </div>
             </div>
@@ -42,29 +47,38 @@
         </div>
       </div>
 
-      <div class="subArt container-fluid" id="doodles-section">
+      <!-- GALLERY SECTION-->
+
+      <div class="container-fluid" id="porfolio">
         <div class="row">
           <div class="col-xs-12">
-            <div class="art">
-              <h1 class="artTitle">Doodles</h1>
+            <div class="section" id="doodles-section">
+              <h1 class="section-title perm-font">Doodles</h1>
               <div class="thumbnails">
-                <img src="images/thumbnails/110_1.jpg" class="img-responsive img-circle doodle" alt="">
-                <img src="images/thumbnails/121_1.jpg" class="img-responsive img-circle doodle" alt="">
-                <img src="images/thumbnails/134_1.jpg" class="img-responsive img-circle doodle" alt="">
-                <img src="images/thumbnails/153_1.jpg" class="img-responsive img-circle doodle" alt="">
-                <img src="images/thumbnails/169_1.jpg" class="img-responsive img-circle doodle" alt="">
-                <img src="images/thumbnails/182_1.jpg" class="img-responsive img-circle doodle" alt="">
-                <img src="images/thumbnails/208_1.jpg" class="img-responsive img-circle doodle" alt="">
-                <img src="images/thumbnails/CDR_27.jpg" class="img-responsive img-circle doodle" alt="">
+                <a href="images/gallery/110_1.jpg" data-lightbox="gallery"><img src="images/gallery/thumbnails/thumb_110_1.jpg" class="img-responsive img-circle doodle" alt=""></a>
+                <a href="images/gallery/121_1.jpg" data-lightbox="gallery"><img src="images/gallery/thumbnails/thumb_121_1.jpg" class="img-responsive img-circle doodle" alt=""></a>
+                <a href="images/gallery/134_1.jpg" data-lightbox="gallery"><img src="images/gallery/thumbnails/thumb_134_1.jpg" class="img-responsive img-circle doodle" alt=""></a>
+                <a href="images/gallery/153_1.jpg" data-lightbox="gallery"><img src="images/gallery/thumbnails/thumb_153_1.jpg" class="img-responsive img-circle doodle" alt=""></a>
+                <a href="images/gallery/169_1.jpg" data-lightbox="gallery"><img src="images/gallery/thumbnails/thumb_169_1.jpg" class="img-responsive img-circle doodle" alt=""></a>
+                <a href="images/gallery/174_1.jpg" data-lightbox="gallery"><img src="images/gallery/thumbnails/thumb_174_1.jpg" class="img-responsive img-circle doodle" alt=""></a>
+                <a href="images/gallery/182_1.jpg" data-lightbox="gallery"><img src="images/gallery/thumbnails/thumb_182_1.jpg" class="img-responsive img-circle doodle" alt=""></a>
+                <a href="images/gallery/183_1.jpg" data-lightbox="gallery"><img src="images/gallery/thumbnails/thumb_183_1.jpg" class="img-responsive img-circle doodle" alt=""></a>
+                <a href="images/gallery/187_1.jpg" data-lightbox="gallery"><img src="images/gallery/thumbnails/thumb_187_1.jpg" class="img-responsive img-circle doodle" alt=""></a>
+                <a href="images/gallery/208_1.jpg" data-lightbox="gallery"><img src="images/gallery/thumbnails/thumb_208_1.jpg" class="img-responsive img-circle doodle" alt=""></a>
+                <a href="images/gallery/CDR_27.jpg" data-lightbox="gallery"><img src="images/gallery/thumbnails/thumb_CDR_27.jpg" class="img-responsive img-circle doodle" alt=""></a>
                 <!-- <img src="images/thumbnails/174_1.jpg" class="img-responsive img-circle" alt=""> -->
+              </div>
+            </div>
+            <div class="" id="web-section">
+              <h1 class="section section-title perm-font">Web</h1>
+              <div class="web-info">
+                <h4 class="open-font"> This website is actually my first attempt to make a porfolio-based website. I have gone through the CodeAcademy Bootcamp and I am currently traversing my way through the AltAcademy Bootcamp. I have done many project websites, but nothing that I am using to actually show some work.</h4>
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="subWeb container-fluid">
-
-      </div>
+      <script src="js/lightbox-plus-jquery.js"></script>
   </body>
 </html>
